@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  background-color: #141414;
+  color: rgb(184, 182, 182);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(26, 25, 25);
+  padding: 10px 50px;
+  align-items: center;
+  color: white;
+  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+}
+
+#filme_principal{
+  border-bottom: 100% ;
+  border-color: red;
+}
+
+#imagem_principal{
+  width: 100%;
+  opacity: 0.6;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+}
+
+#titulo_principal{
+  position: absolute;
+  top: 62%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+
+button{
+  width: 200px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+}
+
+button:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 15px red;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  padding: 3%;
+}
+
+#separacao{
+  color: red;
+  width: 100%;
+}
+
+.menu-esquerda,
+.menu-direita {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu-esquerda img,
+.menu-direita img {
+  width: 36px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 200px 400px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px red;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  color: white;
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 14px;
+  margin: 0;
+}
+
+#piorFilme{
+background-color: darkred;
+padding-top: 0.5%;
+padding-top: 1%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2% 120px;
+}
+
+#descricao{
+  padding-left: 10%;
+  padding-bottom: 2%;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 3%;
+  color: white;
+  border-top: 5px;
+}
